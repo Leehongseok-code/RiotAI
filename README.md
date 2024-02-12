@@ -5,6 +5,8 @@ CBOW, Skip-gram을 활용하여 챔피언 임베딩을 훈련시켰고, 결과�
 
 
 사용한 데이터: Riot API master 티어 전적 데이터
+목적: 챔피언의 유사도를 반영한 벡터를 얻고, 이를 바탕으로 가장 유사한 챔피언을 찾는 코드
+
 
 data preparation example(MatchDatamaster.csv):
 (You can prepare dataframe by preprocessing Riot API)
