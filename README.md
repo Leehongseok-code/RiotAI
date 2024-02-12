@@ -23,6 +23,7 @@ Yasuo,Gragas,Zed,Sivir,Soraka,KSante,Rell,Yone,Zeri,Yuumi,blue
 
 
 embedding visualization command
+해당 코드를 실행하면 수집한 csv파일을 바탕으로 각 챔피언의 벡터를 추출하고, 추출한 벡터를 기반으로 t-SNE 기반 시각화 자료를 출력합니다.
 ```
 python cbow.py
 ```
