@@ -32,5 +32,9 @@ embedding visualization command
 python cbow.py
 ```
 
+t-SNE Embedding example
+<img width="80%" src="https://github.com/Leehongseok-code/RiotAI/assets/52267586/c2a9cf0b-ab2f-4f72-8a33-e5c60a35e5a7"/>
+
+
 
 참고 자료: https://queez0405.github.io/lol-project/
