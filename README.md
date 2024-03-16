@@ -21,8 +21,18 @@ Yasuo,Gragas,Zed,Sivir,Soraka,KSante,Rell,Yone,Zeri,Yuumi,blue
 ...
 ```
 
+Transformer-based embedding visualization command
 
-embedding visualization command
+
+Transformer 모델을 기반으로 승패를 예측하고, 그를 기반으로 Embedding map을 형성합니다. (CBOW에 비해 명확하게 임베딩을 형성하지 않음)
+
+
+'''
+python transformer.py
+'''
+
+
+CBOW-based embedding visualization command
 
 
 해당 코드를 실행하면 수집한 csv파일을 바탕으로 각 챔피언의 벡터를 추출하고, 추출한 벡터를 기반으로 t-SNE 기반 시각화 자료를 출력합니다.
