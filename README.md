@@ -27,9 +27,9 @@ Transformer-based embedding visualization command
 Transformer 모델을 기반으로 승패를 예측하고, 그를 기반으로 Embedding map을 형성합니다. (CBOW에 비해 명확하게 임베딩을 형성하지 않음)
 
 
-'''
+```
 python transformer.py
-'''
+```
 
 
 CBOW-based embedding visualization command
