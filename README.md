@@ -4,6 +4,7 @@ transformer 모델과
 CBOW, Skip-gram을 활용하여 챔피언 임베딩을 훈련시켰고, 결과를 시각화한 프로젝트
 
 
+
 사용한 데이터: Riot API master 티어 전적 데이터
 목적: 챔피언의 유사도를 반영한 벡터를 얻고, 이를 바탕으로 가장 유사한 챔피언을 찾는 코드
 
@@ -25,7 +26,7 @@ Transformer-based embedding visualization command
 
 
 Transformer 모델을 기반으로 승패를 예측하고, 그를 기반으로 Embedding map을 형성합니다. (CBOW에 비해 명확하게 임베딩을 형성하지 않음)
-
+-> 사전 훈련된 임베딩을 가지고 있다면, Transformer 모델의 임베딩 레이어를 건너뛰고 바로 해당 임베딩을 input으로 하여 승패 예측 모델 역시 성능 향상을 이룰 수 있을 것으로 기대됨.
 
 ```
 python transformer.py
