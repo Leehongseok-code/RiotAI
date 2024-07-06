@@ -50,4 +50,4 @@ t-SNE Embedding example
 
 
 
-참고 자료: https://queez0405.github.io/lol-project/
+참고 자료(Item2Vec 기반 챔피언 임베딩 추출 아이디어): https://queez0405.github.io/lol-project/
